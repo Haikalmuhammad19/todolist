@@ -1,22 +1,26 @@
 <template>
-    <div class="profile-page">
-      <div class="profile-card">
-        <div class="profile-header">
-          <h2>Profil Saya</h2>
+  <div class="profile-page">
+    <div class="profile-card">
+      <div class="profile-header">
+        <h2>Profil Saya</h2>
+      </div>
+      <div class="profile-content">
+        <div class="profile-avatar">
+          <!-- Menggunakan foto lokal -->
+          <img src="@/assets/images/Kalll.jpg" alt="Avatar" />
         </div>
-        <div class="profile-content">
-          <div class="profile-avatar">
-            <img src="https://via.placeholder.com/150" alt="Avatar" />
-          </div>
-          <div class="profile-info">
-            <p><strong>Nama:</strong> John Doe</p>
-            <p><strong>Email:</strong> johndoe@example.com</p>
-            <!-- Konten profil lainnya -->
-          </div>
-        </div>
+        <div class="profile-info">
+          <p><strong>Nama:</strong> Haikal Muhammad Kurniawan</p>
+          <p><strong>Kelas:</strong> TI22M</p>
+          <p><strong>Mata Kuliah:</strong> Pemrograman Aplikasi Berbasis Web</p>
+          <p><strong>Tahun Ajaran:</strong> 2022</p>
+          <!-- Konten profil lainnya -->
         </div>
       </div>
-  </template>
+    </div>
+  </div>
+</template>
+
   
   <script>
   export default {
